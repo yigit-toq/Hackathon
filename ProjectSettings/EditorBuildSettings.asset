@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/1-Yigit/Scenes/Scene.unity
+    path: Assets/0-Mustafa/0-Scenes/Scene.unity
+    guid: c6f5f01594ebcec48a02810580d5b67a
+  - enabled: 1
+    path: Assets/1-Yigit/0-Scenes/Scene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   m_configObjects: {}
