@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/1-Yigit/0-Scenes/Scene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/1-Yigit/0-Scenes/Agent.unity
+    guid: b0addb26e191313439c3a5bf380e446e
   m_configObjects: {}

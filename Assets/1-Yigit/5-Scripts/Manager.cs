@@ -10,18 +10,12 @@ public class Manager : MonoBehaviour
 
     [SerializeField] private float duration;
 
-    [SerializeField] private float time;
-
-    private void Start()
-    {
-        time = duration;
-    }
     private void Update()
     {
-        if (time > 0)
+        if (duration > 0)
         {
-            time -= Time.deltaTime;
-            counter.text = time.ToString("F2");
+            duration -= Time.deltaTime;
+            counter.text = duration.ToString("F2");
         }
     }
 }
