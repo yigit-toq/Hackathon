@@ -422,9 +422,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4c9f22dfc6317345b8db3fc83403196, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timer: {fileID: 0}
   counter: {fileID: 1186100776}
   duration: 30
-  time: 0
 --- !u!1 &802718256
 GameObject:
   m_ObjectHideFlags: 0
@@ -615,9 +615,9 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 997083736}
+  - {fileID: 1186100778}
   - {fileID: 802718260}
   - {fileID: 1302919058}
-  - {fileID: 1186100778}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -633,7 +633,7 @@ GameObject:
   - component: {fileID: 1186100777}
   - component: {fileID: 1186100776}
   m_Layer: 0
-  m_Name: Counter
+  m_Name: Timer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

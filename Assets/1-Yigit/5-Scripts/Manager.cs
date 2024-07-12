@@ -1,21 +1,17 @@
-using Google.Protobuf.WellKnownTypes;
-using System.Collections;
-using System.Collections.Generic;
-using TMPro;
+using Unity.MLAgents;
 using UnityEngine;
+using TMPro;
 
 public class Manager : MonoBehaviour
 {
+    [SerializeField] private Agent_Main agent;
+    
+    [SerializeField] private TextMeshPro timer;
     [SerializeField] private TextMeshPro counter;
-
-    [SerializeField] private float duration;
 
     private void Update()
     {
-        if (duration > 0)
-        {
-            duration -= Time.deltaTime;
-            counter.text = duration.ToString("F2");
-        }
+        timer.text = agent.Timer.ToString("F2");
+        counter.text = agent.Step.ToString();
     }
 }
